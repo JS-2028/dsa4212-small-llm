@@ -1,0 +1,3 @@
+updates,train_loss,validation_loss,training_time_seconds,notes
+500,,3.9758,28.74,Exploratory; 50 warmup updates; different validation sampling
+5000,,2.5115,222.19,Exploratory; 200 warmup updates; different validation sampling
