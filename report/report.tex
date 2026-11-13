@@ -123,6 +123,19 @@ Future work should repeat E3 across multiple seeds, compare models under equal t
 This project implemented and trained small decoder-only Transformer language models from random initialisation on TinyStories using a Tesla T4 GPU. The experiments indicate that longer training can improve validation performance, that increasing data from 10,000 to 50,000 stories can help under a fixed update budget while further gains diminish, and that a smaller model can outperform larger alternatives when elapsed training time is constrained. The findings are local to the experimental setup and should not be interpreted as universal prescriptions. Overall, the project demonstrates that compute-efficient language-model training involves balancing model capacity, data diversity, and optimisation progress.
 
 \nocite{*}
+
+\section*{AI Assistance Declaration}
+
+Generative AI tools, including ChatGPT (OpenAI), were used
+to assist with research ideation, experimental planning,
+PyTorch implementation, code debugging, interpretation of
+experimental results, and editing and drafting of the report.
+All experiments were executed by the author using Google
+Colab and an NVIDIA Tesla T4 GPU. The author is responsible
+for reviewing and verifying the implementation, experimental
+results, references, and final submitted work, and for ensuring
+an understanding of the methods and conclusions presented.
+
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}
