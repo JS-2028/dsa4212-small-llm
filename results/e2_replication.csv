@@ -1,0 +1,4 @@
+dataset,stories,mean_validation_loss,std_validation_loss,mean_perplexity,std_perplexity,mean_training_time_seconds
+D1_10k,10000,2.555479,0.007248,12.877696,0.093526,212.349267
+D2_50k,50000,2.515965,0.00207,12.378568,0.025611,210.766327
+D3_100k,100000,2.515023,0.008553,12.367198,0.10597,210.774309
